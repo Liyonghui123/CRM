@@ -13,6 +13,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class ClientController {
     @RequestMapping(value = "index",method = RequestMethod.GET)
     public String index(){
-        return "hello CRMs";
+        return "hello CRM_debug";
     }
 }
