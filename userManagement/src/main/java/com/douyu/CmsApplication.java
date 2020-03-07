@@ -9,7 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @author: Dangerous
  * @time: 2020/3/6 21:37
  */
-@MapperScan("com.com.douyu.dao")
+@MapperScan("com.douyu.dao")
 @SpringBootApplication
 public class CmsApplication {
     public static void main(String[] args) {
